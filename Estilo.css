@@ -1,17 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+
 
 h1 {
     background-color: black;
     font-size: 100px;
     font-family: 'Bungee Spice';
+    margin-left: 500px;
 }
 
 
 html {
-    background-color:rgb(126, 121, 121);
+    background-color:rgb(235, 119, 119);
 }
 
 h2 {
