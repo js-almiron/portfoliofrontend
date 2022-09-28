@@ -5,11 +5,34 @@
 }
 
 .fotoperfil {
+    display: flex;
     width: 250px;
     height: auto;
     border-radius: 50%;
-    margin-left:550px;
 }
+
+.navcontenedor {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background:#395B64;
+}
+
+.navenlace {
+    display: inline-block;
+    background:#395B64;
+    color:white;
+    text-decoration: none;  
+}
+
+.navenlace:hover {
+background:#A5C9CA;
+}
+
+img {
+float:left;
+}
+
 
 h1 {
     padding-left: 550px;
