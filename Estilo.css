@@ -1,26 +1,41 @@
+* {
+    background-color: #1D2323;
+    padding: 10px;
+    color: #E7F6F2;
+}
 
+.fotoperfil {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-left:550px;
+}
 
 h1 {
-    background-color: black;
+    padding-left: 550px;
+    padding-bottom: 0%;
     font-size: 100px;
-    font-family: 'Bungee Spice';
+    font-family: 'Abril Fatface';
     margin-left: 500px;
 }
 
 
-html {
-    background-color:rgb(235, 119, 119);
-}
-
 h2 {
+    padding-left:50px;
     border-style:ridge;
-    border-color: black; 
+    border-color:antiquewhite; 
     border-radius: 10px;
-    background-color:rgb(90, 88, 88)
+    background-color:#1D2323;
 }
 
 .left { 
 float:right;
+}
+
+.destacado {
+font-family: "satisfacer";
+margin-left: 600px;
+padding: 0%;
 }
 
 /* esto es un comentario*/
