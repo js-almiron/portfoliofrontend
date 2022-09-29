@@ -2,47 +2,70 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joana Almiron</title>
 
     <!-- Para vincular hoja html con css -->
     <link rel="stylesheet" type="text/css" href="Estilo.css"> 
+
     <!--Para normalizar css-->
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> 
+
     <!--instalacion bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <!-- Link para estilo de letra con font.google.com
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+     <!-- Link para estilo de letra con font.google.com
      <link rel="preconnect" href="https://fonts.googleapis.com"> 
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@900&display=swap">
-    -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@900&display=swap"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-<enlace rel="preconectar" href="https://fonts.googleapis.com">
-  <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-  <enlace href="https: //fonts.googleapis.com/css2? family= Satisfy & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Satisfy & display=swap" rel="stylesheet">
+
      <!--Link al favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> 
 
-    <title>Joana Almiron</title>
 </head>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
+
 
 <header> <!-- en el header , en la parte superior izq va logo y nombre del programa "Argentina Programa" #YoProgramo .
    debe tener un Banner REPRESENTATIVO MIO (BUSCAR) . En la parte superior derecha debe tener mis redes sociales y un boton que 
    permita el login para la edicion -->
-  <p class="left"> Argentina Programa #YoProgramo </p> 
-  <img src="gdd" alt="Logo Argentina Programa"> <br>
-  <a href="https://linkedin.com"> Mi Linkedin </a><br>
-  <a href="https://discord.com"> Mi Discord </a><br>
-  <a href="https://github.com"> Mi GitHub </a><br>
-  <a href="https://instagram.com"> Mi Instagram </a><br>
-  <button> Login </button>
+
+  <nav class="navcontenedor">
+   <a href="#"> <img src="logoargprog.png" alt="logoargprograma" width="50px" height="auto"> </a>
+   <p class="textonavegacion"> Argentina Programa #YoProgramo </p>
+   <a href="https://linkedin.com" class="navenlace"> Mi Linkedin </a><br>
+   <a href="https://discord.com" class="navenlace"> Mi Discord </a><br>
+   <a href="https://github.com" class="navenlace"> Mi GitHub </a><br>
+   <a href="https://instagram.com" class="navenlace"><img src="logoig.jpg" alt="logoinstagram"></a>
+   <a href="https://instagram.com" class="navenlace"> Mi Instagram </a><br>
+   <button class="navenlace"> Login </button>
+  </nav> 
 </header>
+
 
 <nav class="navcontenedor">
   <a href="#" class="navenlace">Inicio</a>
@@ -60,13 +83,10 @@
 </div>
 
 <section>
-        <h2>Sobre mi</h2> <!--En esta seccion se encuentra tu foto de perfil , nombre y titulo que tienes 
+  <h2>Sobre mi</h2> <!--En esta seccion se encuentra tu foto de perfil , nombre y titulo que tienes 
           (Full Stack Developer Jr.) En esta seccion debes poner informacion profesional resumida sobre vos-->
-          <div>
-      <p id="parrafosobremi"> INFORMACION PROFESIONAL RESUMIDA SOBRE MI ... Lorem ipsum doloEr sit amet consectetur adipisicing elit. Veritatis harum dignissimos veniam ipsam fugiat earum cumque delectus officiis vero odio maxime distinctio beatae asperiores explicabo, corrupti fuga, impedit blanditiis cupiditate.
-      </p>
+    <p> INFORMACION PROFESIONAL RESUMIDA SOBRE MI ... Lorem ipsum doloEr sit amet consectetur adipisicing elit. Veritatis harum dignissimos veniam ipsam fugiat earum cumque delectus officiis vero odio maxime distinctio beatae asperiores explicabo, corrupti fuga, impedit blanditiis cupiditate.</p>
 </section>
-
 <section>
   <h2>Experiencia laboral</h2> <!--Incluye titulo del puesto , periodo , logo de la empresa si lo encuentro y descripcion de 
       las actv realizadas en ese puesto-->
@@ -85,15 +105,15 @@
    <div>
        <h3>Responsable de Calidad y Back Office </h3>
        <img src="logoHeylatam.jpg" alt="logo Hey Latam" class="imghey">
-        <p> Empresa : Hey Latam (04/2018 a 11/2020) <br>
-- Líder de un equipo de 16 analistas de calidad de ventas/customer service y 4 Back Office.
-- Liderar los procesos y velar por el cumplimiento de los objetivos estratégicos de la organización.
-- Gestión de proyectos
-- Gestión de reclamos a clientes institucionales
-- Seguimiento de indicadores de gestión , análisis de reportes , tableros de control , kpi´s . Toma de decisiones en base a métricas. 
-- Dictado de capacitaciones y talleres a agentes comerciales sobre buenas practicas de atención y técnicas de venta.
-- Comité normas ISO 9001:2015
-         </p>
+       <p> Empresa : Hey Latam (04/2018 a 11/2020) <br>
+        Líder de un equipo de 16 analistas de calidad de ventas/customer service y 4 Back Office.
+        Liderar los procesos y velar por el cumplimiento de los objetivos estratégicos de la organización.
+        Gestión de proyectos
+        Gestión de reclamos a clientes institucionales
+        Seguimiento de indicadores de gestión , análisis de reportes , tableros de control , kpi´s . Toma de decisiones en base a métricas. 
+        Dictado de capacitaciones y talleres a agentes comerciales sobre buenas practicas de atención y técnicas de venta.
+        Comité normas ISO 9001:2015
+      </p>
    </div>
    <div>
        <h3>Auditora operativa/interna norma ISO 9001</h3>
@@ -104,10 +124,10 @@
 </section>
 
 <section>
-    <div>
-      <h2>Educacion</h2> <!--info sobre mi formacion academica , certificaciones , cursos y todo lo relacionado al titulo que 
+  <h2>Educacion</h2> <!--info sobre mi formacion academica , certificaciones , cursos y todo lo relacionado al titulo que 
         actualmente cuentas , es importante detallar la informacion del instituto , el logo de ser posible , nombre , carrera o
          titulo estudiado y en que periodo o año -->
+      <div>
          <ul>
        <li>Educacion primaria , secundaria y terciaria completa </li>
        <li>Full Stack Developer Jr. - CESSI , INTI y Ministerio de Produccion</li>
@@ -120,30 +140,29 @@
        <li>Normas de calidad en servicios de atencion al cliente - Linkedin e-learning </li>
        <li>Fundamentos del servicio de atencion al cliente - Linkedin e-learning </li>
          </ul>
-      </div>
        <p class="parrafocertificados">Haga <a href="CertificadoDeFinalizacion_Cert Prep Scrum Master.pdf"> Click aqui </a> para mirar los certificados </p>
       </div>
 </section>
 
 <section>
-
-      <div>
-        <h2>Hard y Soft Skills</h2><!--Visualizado como porcentajes u otra forma de visualizacion atrasctiva colocaras tus 
+  <h2>Hard y Soft Skills</h2><!--Visualizado como porcentajes u otra forma de visualizacion atrasctiva colocaras tus 
           habilidades rel<cionadas contigo y que grado de dominio tienes , puedes tambien generar una seccion adicional con 
           los idiomas que dominas y en que nivel te encuentras-->
-          <p> Hard Skills: GIT HUB - HTML - VISUAL STUDIO CODE - JAVA - BOOSTRAP - ANGULAR -EXCEL</p>
-          <p> Soft Skills: Liderazgo - Pensamiento Critico/logico - Capacidad resolutiva - Creatividad y Responsabilidad </p>
+      <div>
+        <p class="pcomienzo"> Hard Skills: GIT HUB - HTML - VISUAL STUDIO CODE - JAVA - BOOSTRAP - ANGULAR -EXCEL</p>
+        <p class="pcomienzo"> Soft Skills: Liderazgo - Pensamiento Critico/logico - Capacidad resolutiva - Creatividad y Responsabilidad </p>
       </div>
 </section>
 
 <section>
-      <div>
-        <h2>Proyectos</h2> <!--En esta sccion debera encontrarse la info sobre los proyectos que estuviste involucrado o 
+  <h2>Proyectos</h2> <!--En esta sccion debera encontrarse la info sobre los proyectos que estuviste involucrado o 
           que desarrollaste, incluyendo este Portafolio Web. Cada proyecto debera contener el nombre , fecha de realizacion, 
           descripcion del proyecyo y el link a su evidencia , en este cado podrias adjuntar imagenes d ellos-->
-     <p> Mi Portfolio - Trabajo practico final Argentina Programa #YoProgramo</p>
-      </div>
-</section>   
+    <div>
+      <p class="pcomienzo"> Mi Portfolio - Trabajo practico final Argentina Programa #YoProgramo</p>
+    </div>
+</section> 
+
 
 <footer>
   <p class="parrafofooter">Contacto <a href="$$">WhatsApp</a>  <a href="##"> Linkedin </a> <a href=”#”>E-mail</a> </p> 

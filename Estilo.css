@@ -1,7 +1,19 @@
 * {
-    background-color: #1D2323;
-    padding: 10px;
+    background-color: #1D2323; 
     color: #E7F6F2;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+}
+
+h2 {
+    padding-left:100px;
+    background-color: #1D2323;
+    border-radius: 20px;
+    border-style:outset; 
+    border-color: #E7F6F2; 
 }
 
 .fotoperfil {
@@ -27,13 +39,14 @@
     text-decoration: none;  
 }
 
+.textonavegacion {
+    background:#395B64;
+}
+
 .navenlace:hover {
 background:#A5C9CA;
 }
 
-.parrafosobremi {
-padding-left:50px;
-}
 
 h3{
 padding-left:40px;
@@ -46,9 +59,9 @@ margin: 300px;
 padding-top:30px;
 }
 
-img {
-float:left;
-width: 250px;
+.imgig { 
+width:100px;
+height: 100px;
 }
 
 .imgl2{
@@ -71,6 +84,10 @@ margin-left: 40px;
 margin-top:40px;
 }
 
+img {
+    float:left;
+    width: 250px;
+    }
 
 h1 {
     padding-left: 550px;
@@ -80,14 +97,6 @@ h1 {
     margin-left: 500px;
 }
 
-
-h2 {
-    padding-left:50px;
-    border-style:ridge;
-    border-color:antiquewhite; 
-    border-radius: 10px;
-    background-color:#1D2323;
-}
 
 div {
 padding: 30px;
@@ -113,6 +122,10 @@ footer{
 .parrafocertificados{
     padding:0%;
     margin-left: 50px;
+}
+
+.pcomienzo {
+    margin-left: 10px;
 }
 
 /* esto es un comentario*/
