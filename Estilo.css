@@ -1,13 +1,26 @@
+
+/* GENERAL */
+
 * {
+    padding: 0px; /* ok */
+    margin: 0px; /* ok */
     background-color: #1D2323; 
     color: #E7F6F2;
-    padding: 0px;
 }
 
 body {
     padding: 0px;
 }
 
+img {
+    float:left;
+    width: 250px;
+}  
+
+div {
+    padding: 30px;
+}
+     
 h2 {
     padding-left:100px;
     background-color: #1D2323;
@@ -15,39 +28,6 @@ h2 {
     border-style:outset; 
     border-color: #E7F6F2; 
 }
-
-.fotoperfil {
-    display:block;
-    width: 250px;
-    height: auto;
-    border-radius: 50%;
-    margin-left: 550px;
-    margin-top: 50px;
-}
-
-.navcontenedor {
-    padding: 5px;
-    display: flex;
-    justify-content: flex-end;
-    background:#395B64;
-}
-
-.navenlace {
-    display: inline-block;
-    background:#395B64;
-    color:white;
-    text-decoration: none;  
-    margin: 10px;
-}
-
-.textonavegacion {
-    background:#395B64;
-}
-
-.navenlace:hover {
-background:#A5C9CA;
-}
-
 
 h3{
 padding-left:40px;
@@ -60,10 +40,89 @@ margin: 300px;
 padding-top:30px;
 }
 
-.imgig { 
-width:100px;
-height: 100px;
+
+
+
+
+/* BARRAS DE NAVEGACION SUPERIOR */
+
+.cajanav {
+    width: 100vw; /* ok */
+    height: 7vh; /* ok */
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background:#395B64;
 }
+
+.cajanav__enlace {
+    display: inline-block;
+    background:#395B64;
+    color:white;
+    text-decoration: none;  
+    margin: 10px;
+}
+
+.cajanav__enlace:hover {
+    background:#A5C9CA;
+}
+
+.cajanav__img { 
+    width:5vw;
+    height:5vh;
+}
+
+
+
+
+
+
+/* PORTADA CON FOTO*/
+
+.portada {
+width: 100vw; /* ok */
+height: 90vh; /* ok */
+}
+
+
+.portada__fotojoa {
+    display:flex;
+    width: 20vw;
+    height: 20vw ;
+    border-radius: 50%;
+}
+
+/* 
+.portada__fotojoa {
+    display:flex;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 50px;
+
+    */
+
+h1 {
+    padding-left: 550px;
+    padding-bottom: 0%;
+    font-size: 100px;
+    font-family: 'Abril Fatface';
+    margin-left: 500px;
+}
+
+.portada__descripcion {
+    font-family: "satisfacer";
+    margin-left: 600px;
+    padding: 0%;
+    }
+
+
+
+
+
+
+/* EXPERIENCIA LABORAL*/
 
 .imgl2{
 margin-left:30px;
@@ -85,31 +144,34 @@ margin-left: 40px;
 margin-top:40px;
 }
 
-img {
-    float:left;
-    width: 250px;
-    }
 
-h1 {
-    padding-left: 550px;
-    padding-bottom: 0%;
-    font-size: 100px;
-    font-family: 'Abril Fatface';
-    margin-left: 500px;
+
+
+
+
+/* EDUCACION */
+
+.parrafocertificados{
+    padding:0%;
+    margin-left: 50px;
 }
 
 
-div {
-padding: 30px;
+
+
+
+
+/*HARD Y SOFT SKILLS*/
+
+.pcomienzo {
+    margin-left: 10px;
 }
 
 
-.destacado {
-font-family: "satisfacer";
-margin-left: 600px;
-padding: 0%;
-}
 
+
+
+/*PIE DE PAGINA*/
 footer{
     background:#395B64;
 }
@@ -120,13 +182,3 @@ footer{
     font-size:x-small;
 }
 
-.parrafocertificados{
-    padding:0%;
-    margin-left: 50px;
-}
-
-.pcomienzo {
-    margin-left: 10px;
-}
-
-/* esto es un comentario*/
