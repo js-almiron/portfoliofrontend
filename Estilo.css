@@ -83,16 +83,17 @@ padding-top:30px;
 /* PORTADA CON FOTO*/
 
 .portada {
-width: 100vw; /* ok */
-height: 90vh; /* ok */
+width: 100vw; 
+height: 90vh; 
 }
 
 
 .portada__fotojoa {
-    display:flex;
+    display:inline;
     width: 20vw;
     height: 20vw ;
     border-radius: 50%;
+    position: relative;
 }
 
 /* 
@@ -104,7 +105,7 @@ height: 90vh; /* ok */
     margin-left: 550px;
     margin-top: 50px;
 
-    */
+    
 
 h1 {
     padding-left: 550px;
@@ -113,11 +114,19 @@ h1 {
     font-family: 'Abril Fatface';
     margin-left: 500px;
 }
+*/
+
+.portada__minombre{
+    margin-left: 580px;
+    padding: 0%;
+    margin-right:600px;
+}
 
 .portada__descripcion {
     font-family: "satisfacer";
     margin-left: 600px;
     padding: 0%;
+    margin-right:600px;
     }
 
 
