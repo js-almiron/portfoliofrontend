@@ -8,10 +8,6 @@
     color: #E7F6F2;
 }
 
-body {
-    padding: 0px;
-}
-
 img {
     float:left;
     width: 250px;
@@ -118,14 +114,12 @@ h1 {
 
 .portada__minombre{
     margin-left: 580px;
-    padding: 0%;
     margin-right:600px;
 }
 
 .portada__descripcion {
     font-family: "satisfacer";
     margin-left: 600px;
-    padding: 0%;
     margin-right:600px;
     }
 
